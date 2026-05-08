@@ -11,7 +11,7 @@ Write a life as a dramatic human portrait: choices under pressure, contradiction
 
 Do not write praise. Write recognition.
 
-For Chinese outputs, default to a third-person literary biographical voice unless the user explicitly asks for first-person memoir. Make the prose attractive through concrete things, human relationships, small actions, and sentence flow rather than through big claims.
+For Chinese outputs, default to a third-person literary biographical voice unless the user explicitly asks for first-person memoir. Make the prose attractive through concrete things, human relationships, small actions, and sentence flow rather than through big claims. Read the embedded Wang Zengqi writing skill at `references/vendor/wangzengqi-perspective/SKILL.md` when writing or revising Chinese narrative prose.
 
 ## Operating Principles
 
@@ -44,7 +44,7 @@ For Chinese outputs, default to a third-person literary biographical voice unles
    - Move between scene, reflection, and consequence.
    - Use chronology only as scaffolding; emotional causality matters more.
    - Include other people's views where available, especially conflicting views.
-   - For Chinese prose, use the biographical prose style in `references/biographical-prose-style.md`: first find a concrete object, place, gesture, or daily scene; then let the person's conflict and feeling grow out of it.
+   - For Chinese prose, first read `references/vendor/wangzengqi-perspective/SKILL.md` for the complete Wang Zengqi writing protocol, then use `references/biographical-prose-style.md` to adapt that prose mechanism to life-writing: concrete object first, person second, pressure third, meaning last.
 
 5. Revise against flattery.
    - Replace generic praise with evidence.
@@ -73,7 +73,9 @@ Use `references/drama-method.md` for television-style structure: teaser opens, e
 
 Use `references/autobiography-craft.md` for memoir and biography craft patterns inspired by major autobiographical traditions: confessional, political, literary, investigative, celebrity, spiritual, immigrant, survivor, artist, and public-woman narratives.
 
-Use `references/biographical-prose-style.md` for the default Chinese prose style: vivid but restrained, third-person friendly, plain but flavorful, with feeling carried by objects, actions, weather, rooms, tools, food, work scenes, and relationships.
+Use `references/vendor/wangzengqi-perspective/SKILL.md` as the embedded full style source for Wang Zengqi-inspired Chinese prose: people, objects, weather, rooms, food, tools, local speech, restrained feeling, and sentence flow. Do not roleplay as Wang Zengqi while using this autobiography skill; borrow the writing mechanism.
+
+Use `references/biographical-prose-style.md` to adapt the embedded Wang Zengqi method to autobiography and profile writing: vivid but restrained, third-person friendly, plain but flavorful, with feeling carried by objects, actions, weather, rooms, tools, food, work scenes, and relationships.
 
 Use `references/anti-flattery.md` before finalizing any draft.
 
