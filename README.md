@@ -36,6 +36,7 @@ Life Autobiography Writer gives your agent a repeatable writing system for that.
 
 - Builds deep interview plans around origin, hunger, shame, ambition, family, work, body, relationships, and turning points.
 - Converts scattered notes, user profiles, transcripts, or timelines into a dramatic life map.
+- Supports two collection modes: material-first from uploads/social profiles/AI conversation exports, or interview-first via a HUMAN 3.0-style deep assessment.
 - Parses social media/profile links into biography source material while preserving provenance, confidence, privacy, and open questions.
 - Writes third-person literary profiles or first-person memoir chapters.
 - Uses a Minori-style interview method inspired by writer-versus-subject biography dynamics: attracted, skeptical, patient, and unwilling to accept the polished version too quickly.
@@ -65,6 +66,7 @@ life-autobiography-writer/
 │   ├── autobiography-craft.md
 │   ├── biographical-prose-style.md
 │   ├── drama-method.md
+│   ├── information-collection-modes.md
 │   ├── life-memory-substrate.md
 │   ├── minori-style-interview.md
 │   ├── question-bank.md
@@ -99,6 +101,14 @@ Or provide material directly:
 ```text
 Use $life-autobiography-writer to write a vivid autobiography sample from this profile.
 Make it third-person, Chinese, restrained, and not flattering.
+```
+
+Or start from zero:
+
+```text
+Use $life-autobiography-writer to start from a deep interview.
+Use HUMAN 3.0 / $human-3-development-assessor first if available.
+Then turn the assessment into a psychologically layered autobiography.
 ```
 
 Or start from social links:
@@ -203,6 +213,7 @@ In Chinese, the default style is third-person literary nonfiction with a Wang Ze
 ## Included Reference Modules
 
 - `question-bank.md`: interview questions for origin, family, work, shame, ambition, relationships, and meaning.
+- `information-collection-modes.md`: choose material-first or interview-first collection; interview-first can call Human-3.0.
 - `minori-style-interview.md`: origin-point and core-hunger interview method.
 - `drama-method.md`: television-style dramatic spine, reversals, supporting cast, motifs, and endings.
 - `life-memory-substrate.md`: source-material management for raw events, claims, verified facts, interaction memory, and follow-up actions.

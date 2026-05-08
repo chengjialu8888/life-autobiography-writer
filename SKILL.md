@@ -1,6 +1,6 @@
 ---
 name: life-autobiography-writer
-description: Interview-driven life autobiography and profile writing. Use when the user wants Codex to interview a person, reconstruct a life story, ghostwrite memoir/autobiography chapters, create a moving biographical profile, parse social media profile links (Instagram, LinkedIn, X/Twitter, Xiaohongshu, etc.) into biography source material, or turn scattered memories into a vivid human portrait. Especially useful when the desired result should feel dramatic, psychologically layered, and charming without flattery, hagiography, generic inspiration, or corporate bio polish.
+description: Interview-driven life autobiography and profile writing. Use when the user wants Codex to interview a person, reconstruct a life story, ghostwrite memoir/autobiography chapters, create a moving biographical profile, parse uploaded materials or AI conversation exports, parse social media profile links (Instagram, LinkedIn, X/Twitter, Xiaohongshu, etc.) into biography source material, run a from-zero deep interview, or turn scattered memories into a vivid human portrait. Especially useful when the desired result should feel dramatic, psychologically layered, and charming without flattery, hagiography, generic inspiration, or corporate bio polish.
 ---
 
 # Life Autobiography Writer
@@ -30,10 +30,12 @@ For Chinese outputs, default to a third-person literary biographical voice unles
    - Ask what the user does not want: apology, confession, brand bio, family tribute, business legend, therapy transcript, or pure chronology.
 
 2. Gather source material.
+   - Choose one of the two collection modes in `references/information-collection-modes.md`: material-first when the user provides uploaded files, AI conversation exports, notes, or social profiles; interview-first when starting from zero.
    - Interview in rounds. Start broad, then return with sharper follow-ups.
    - Request documents only when useful: timelines, photos, speeches, posts, letters, media reports, family notes, work artifacts.
    - If the user provides social media profile links, use `references/social-profile-ingestion.md` to capture public profile material, recent posts, recurring themes, self-presentation, work history, visible communities, motifs, and contradictions. Treat social media as curated evidence, not the whole person.
    - For LinkedIn, prefer asking the user to copy/paste the full profile text instead of only pasting a link, because LinkedIn often blocks unauthenticated access behind an authwall/data wall.
+   - If the user starts from zero and wants a deep life interview, use HUMAN 3.0 as the upstream assessment framework. If `$human-3-development-assessor` is available, run it first; otherwise direct the user to https://github.com/chengjialu8888/Human-3.0 or ask a HUMAN 3.0-style Mind/Body/Spirit/Vocation interview before drafting.
    - If the user provides partial material, map what is known, what is missing, and what cannot be responsibly inferred.
    - Use `references/life-memory-substrate.md` when source material is large, fragmented, long-running, or intended to become a reusable personal knowledge base. Preserve raw events, separate claims from verified facts, capture why decisions happened, and attach provenance, confidence, freshness, and follow-up actions.
 
@@ -58,6 +60,8 @@ For Chinese outputs, default to a third-person literary biographical voice unles
 ## Interview Rounds
 
 Use `references/question-bank.md` when the user needs discovery questions or when the subject feels flat.
+
+Use `references/information-collection-modes.md` first when deciding whether to work from existing materials/social profiles or to start a deep interview from zero.
 
 Use `references/minori-style-interview.md` when the user asks for a Minori-like interview inspired by the writer/subject dynamic in Netflix's `地獄に堕ちるわよ`: begin from the subject's life origin, core hunger, first charged childhood scene, and the difference between the self-told myth and the buried human truth.
 

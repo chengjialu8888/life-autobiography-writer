@@ -44,6 +44,7 @@ Life Autobiography Writer 会让 agent 先问更深的问题：
 
 - 设计深度采访问题，覆盖原点、家庭、关系、羞耻、野心、身体、工作、转折点。
 - 把零散笔记、访谈记录、用户画像、时间线整理成“人生地图”。
+- 支持两种信息收集模式：上传材料/社交主页/AI 对话记录优先，或从零开始用 HUMAN 3.0 深访。
 - 解析社交媒体主页链接，把公开资料转成有来源、置信度、隐私边界和追问项的自传素材。
 - 写第三人称人物小传，也能写第一人称 memoir 章节。
 - 内置“美乃里式采访”方法：被人物吸引，但不轻信人物给出的官方版本。
@@ -71,6 +72,7 @@ life-autobiography-writer/
 │   ├── autobiography-craft.md
 │   ├── biographical-prose-style.md
 │   ├── drama-method.md
+│   ├── information-collection-modes.md
 │   ├── life-memory-substrate.md
 │   ├── minori-style-interview.md
 │   ├── question-bank.md
@@ -105,6 +107,14 @@ Use $life-autobiography-writer to interview me and write a third-person literary
 ```text
 Use $life-autobiography-writer to write a vivid autobiography sample from this profile.
 Make it third-person, Chinese, restrained, and not flattering.
+```
+
+或者从零开始深访：
+
+```text
+Use $life-autobiography-writer to start from a deep interview.
+Use HUMAN 3.0 / $human-3-development-assessor first if available.
+Then turn the assessment into a psychologically layered autobiography.
 ```
 
 或者直接给社交主页链接：
@@ -209,6 +219,7 @@ Then write a third-person profile opening.
 ## 内置参考模块
 
 - `question-bank.md`：人生原点、家庭、工作、羞耻、野心、关系、意义等采访问题。
+- `information-collection-modes.md`：选择“材料优先”或“深访优先”两种信息收集模式；深访优先时可调用 Human-3.0。
 - `minori-style-interview.md`：从“人生原点”和“核心饥饿”切入的采访法。
 - `drama-method.md`：电视剧式戏剧脊柱、转折、配角、母题和结尾方法。
 - `life-memory-substrate.md`：自传素材知识库管理，区分 raw event、claim、verified fact、interaction memory 和 action memory。
