@@ -62,6 +62,7 @@ life-autobiography-writer/
 │   ├── autobiography-craft.md
 │   ├── biographical-prose-style.md
 │   ├── drama-method.md
+│   ├── life-memory-substrate.md
 │   ├── minori-style-interview.md
 │   ├── question-bank.md
 │   └── vendor/
@@ -182,6 +183,7 @@ In Chinese, the default style is third-person literary nonfiction with a Wang Ze
 - `question-bank.md`: interview questions for origin, family, work, shame, ambition, relationships, and meaning.
 - `minori-style-interview.md`: origin-point and core-hunger interview method.
 - `drama-method.md`: television-style dramatic spine, reversals, supporting cast, motifs, and endings.
+- `life-memory-substrate.md`: source-material management for raw events, claims, verified facts, interaction memory, and follow-up actions.
 - `autobiography-craft.md`: memoir and biography craft patterns.
 - `biographical-prose-style.md`: Chinese third-person prose adaptation.
 - `anti-flattery.md`: final revision pass against generic praise and brand-bio language.

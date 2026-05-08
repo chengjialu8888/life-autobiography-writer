@@ -33,6 +33,7 @@ For Chinese outputs, default to a third-person literary biographical voice unles
    - Interview in rounds. Start broad, then return with sharper follow-ups.
    - Request documents only when useful: timelines, photos, speeches, posts, letters, media reports, family notes, work artifacts.
    - If the user provides partial material, map what is known, what is missing, and what cannot be responsibly inferred.
+   - Use `references/life-memory-substrate.md` when source material is large, fragmented, long-running, or intended to become a reusable personal knowledge base. Preserve raw events, separate claims from verified facts, capture why decisions happened, and attach provenance, confidence, freshness, and follow-up actions.
 
 3. Build the dramatic spine.
    - Identify the central hunger: what the subject kept trying to prove, escape, protect, win, repair, or understand.
@@ -57,6 +58,8 @@ For Chinese outputs, default to a third-person literary biographical voice unles
 Use `references/question-bank.md` when the user needs discovery questions or when the subject feels flat.
 
 Use `references/minori-style-interview.md` when the user asks for a Minori-like interview inspired by the writer/subject dynamic in Netflix's `地獄に堕ちるわよ`: begin from the subject's life origin, core hunger, first charged childhood scene, and the difference between the self-told myth and the buried human truth.
+
+Use `references/life-memory-substrate.md` when collecting, organizing, or maintaining biography source material as a living memory system rather than a flat pile of notes.
 
 Default sequence:
 

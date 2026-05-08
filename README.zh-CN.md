@@ -68,6 +68,7 @@ life-autobiography-writer/
 │   ├── autobiography-craft.md
 │   ├── biographical-prose-style.md
 │   ├── drama-method.md
+│   ├── life-memory-substrate.md
 │   ├── minori-style-interview.md
 │   ├── question-bank.md
 │   └── vendor/
@@ -188,6 +189,7 @@ Remove flattery, add contradiction, and make the feeling land in scenes instead 
 - `question-bank.md`：人生原点、家庭、工作、羞耻、野心、关系、意义等采访问题。
 - `minori-style-interview.md`：从“人生原点”和“核心饥饿”切入的采访法。
 - `drama-method.md`：电视剧式戏剧脊柱、转折、配角、母题和结尾方法。
+- `life-memory-substrate.md`：自传素材知识库管理，区分 raw event、claim、verified fact、interaction memory 和 action memory。
 - `autobiography-craft.md`：自传、回忆录、人物传记的写作工艺。
 - `biographical-prose-style.md`：中文第三人称人物小传笔法。
 - `anti-flattery.md`：反彩虹屁修订规则。
