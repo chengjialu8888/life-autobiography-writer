@@ -17,6 +17,8 @@
 
 这个 skill 的目标，是让你的 personal agent 能像一个好的传记作者一样工作：多方追问，挖出人生原点，拆开自我神话，找到核心饥饿，把一个人写得立体、有魅力，但不谄媚。
 
+新增能力：直接贴 Instagram / LinkedIn / X / 小红书 / GitHub / 个人网站 / Newsletter 等社交主页链接，让 agent 先解析公开资料，生成临时人生地图、采访问题，再写自传或人物小传。
+
 ## 它解决什么问题
 
 普通人物介绍太像履历：
@@ -42,6 +44,7 @@ Life Autobiography Writer 会让 agent 先问更深的问题：
 
 - 设计深度采访问题，覆盖原点、家庭、关系、羞耻、野心、身体、工作、转折点。
 - 把零散笔记、访谈记录、用户画像、时间线整理成“人生地图”。
+- 解析社交媒体主页链接，把公开资料转成有来源、置信度、隐私边界和追问项的自传素材。
 - 写第三人称人物小传，也能写第一人称 memoir 章节。
 - 内置“美乃里式采访”方法：被人物吸引，但不轻信人物给出的官方版本。
 - 植入汪曾祺式中文写作机制：先有物，再有人；先有动作，再有情绪；先有场景，再有意义。
@@ -71,6 +74,7 @@ life-autobiography-writer/
 │   ├── life-memory-substrate.md
 │   ├── minori-style-interview.md
 │   ├── question-bank.md
+│   ├── social-profile-ingestion.md
 │   └── vendor/
 │       └── wangzengqi-perspective/
 │           └── SKILL.md
@@ -101,6 +105,17 @@ Use $life-autobiography-writer to interview me and write a third-person literary
 ```text
 Use $life-autobiography-writer to write a vivid autobiography sample from this profile.
 Make it third-person, Chinese, restrained, and not flattering.
+```
+
+或者直接给社交主页链接：
+
+```text
+Use $life-autobiography-writer to parse these social profiles and write a provisional life map:
+LinkedIn: ...
+X/Twitter: ...
+Instagram: ...
+Xiaohongshu: ...
+Then ask me follow-up questions before drafting.
 ```
 
 ## Quickstart：Claude Code
@@ -173,6 +188,12 @@ Use $life-autobiography-writer to revise this draft.
 Remove flattery, add contradiction, and make the feeling land in scenes instead of abstract praise.
 ```
 
+```text
+Use $life-autobiography-writer to analyze this LinkedIn + X + personal website.
+Extract public self-story, recurring themes, contradictions, motifs, and missing interview questions.
+Then write a third-person profile opening.
+```
+
 ## 写作理念
 
 这个 skill 有四条底层原则：
@@ -190,6 +211,7 @@ Remove flattery, add contradiction, and make the feeling land in scenes instead 
 - `minori-style-interview.md`：从“人生原点”和“核心饥饿”切入的采访法。
 - `drama-method.md`：电视剧式戏剧脊柱、转折、配角、母题和结尾方法。
 - `life-memory-substrate.md`：自传素材知识库管理，区分 raw event、claim、verified fact、interaction memory 和 action memory。
+- `social-profile-ingestion.md`：社交主页一键摄取，支持 Instagram、LinkedIn、X/Twitter、小红书、GitHub、博客和个人网站。
 - `autobiography-craft.md`：自传、回忆录、人物传记的写作工艺。
 - `biographical-prose-style.md`：中文第三人称人物小传笔法。
 - `anti-flattery.md`：反彩虹屁修订规则。

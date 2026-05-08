@@ -1,6 +1,6 @@
 ---
 name: life-autobiography-writer
-description: Interview-driven life autobiography and profile writing. Use when the user wants Codex to interview a person, reconstruct a life story, ghostwrite memoir/autobiography chapters, create a moving biographical profile, or turn scattered memories into a vivid human portrait. Especially useful when the desired result should feel dramatic, psychologically layered, and charming without flattery, hagiography, generic inspiration, or corporate bio polish.
+description: Interview-driven life autobiography and profile writing. Use when the user wants Codex to interview a person, reconstruct a life story, ghostwrite memoir/autobiography chapters, create a moving biographical profile, parse social media profile links (Instagram, LinkedIn, X/Twitter, Xiaohongshu, etc.) into biography source material, or turn scattered memories into a vivid human portrait. Especially useful when the desired result should feel dramatic, psychologically layered, and charming without flattery, hagiography, generic inspiration, or corporate bio polish.
 ---
 
 # Life Autobiography Writer
@@ -32,6 +32,7 @@ For Chinese outputs, default to a third-person literary biographical voice unles
 2. Gather source material.
    - Interview in rounds. Start broad, then return with sharper follow-ups.
    - Request documents only when useful: timelines, photos, speeches, posts, letters, media reports, family notes, work artifacts.
+   - If the user provides social media profile links, use `references/social-profile-ingestion.md` to capture public profile material, recent posts, recurring themes, self-presentation, work history, visible communities, motifs, and contradictions. Treat social media as curated evidence, not the whole person.
    - If the user provides partial material, map what is known, what is missing, and what cannot be responsibly inferred.
    - Use `references/life-memory-substrate.md` when source material is large, fragmented, long-running, or intended to become a reusable personal knowledge base. Preserve raw events, separate claims from verified facts, capture why decisions happened, and attach provenance, confidence, freshness, and follow-up actions.
 
@@ -60,6 +61,8 @@ Use `references/question-bank.md` when the user needs discovery questions or whe
 Use `references/minori-style-interview.md` when the user asks for a Minori-like interview inspired by the writer/subject dynamic in Netflix's `地獄に堕ちるわよ`: begin from the subject's life origin, core hunger, first charged childhood scene, and the difference between the self-told myth and the buried human truth.
 
 Use `references/life-memory-substrate.md` when collecting, organizing, or maintaining biography source material as a living memory system rather than a flat pile of notes.
+
+Use `references/social-profile-ingestion.md` when the user gives Instagram, LinkedIn, X/Twitter, Xiaohongshu, GitHub, personal website, newsletter, blog, podcast, or other social/profile links and asks for a one-link or multi-link autobiography/profile draft.
 
 Default sequence:
 

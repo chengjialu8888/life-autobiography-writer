@@ -14,6 +14,8 @@ This skill does something else. It helps a personal agent interview a person fro
 
 It is built for memoir ghostwriting, personal archives, founder profiles, family biographies, creator stories, reflective self-narratives, and any life story that should feel alive instead of promotional.
 
+New: paste social profile links (Instagram, LinkedIn, X/Twitter, Xiaohongshu, GitHub, personal websites, newsletters, etc.) and let your agent turn public traces into a provisional life map, interview plan, and biography draft.
+
 ## Why It Exists
 
 Many life stories fail in one of two ways:
@@ -34,6 +36,7 @@ Life Autobiography Writer gives your agent a repeatable writing system for that.
 
 - Builds deep interview plans around origin, hunger, shame, ambition, family, work, body, relationships, and turning points.
 - Converts scattered notes, user profiles, transcripts, or timelines into a dramatic life map.
+- Parses social media/profile links into biography source material while preserving provenance, confidence, privacy, and open questions.
 - Writes third-person literary profiles or first-person memoir chapters.
 - Uses a Minori-style interview method inspired by writer-versus-subject biography dynamics: attracted, skeptical, patient, and unwilling to accept the polished version too quickly.
 - Embeds a Wang Zengqi-inspired Chinese prose system for plain but flavorful writing: objects first, people second, pressure third, meaning last.
@@ -65,6 +68,7 @@ life-autobiography-writer/
 │   ├── life-memory-substrate.md
 │   ├── minori-style-interview.md
 │   ├── question-bank.md
+│   ├── social-profile-ingestion.md
 │   └── vendor/
 │       └── wangzengqi-perspective/
 │           └── SKILL.md
@@ -95,6 +99,17 @@ Or provide material directly:
 ```text
 Use $life-autobiography-writer to write a vivid autobiography sample from this profile.
 Make it third-person, Chinese, restrained, and not flattering.
+```
+
+Or start from social links:
+
+```text
+Use $life-autobiography-writer to parse these social profiles and write a provisional life map:
+LinkedIn: ...
+X/Twitter: ...
+Instagram: ...
+Xiaohongshu: ...
+Then ask me follow-up questions before drafting.
 ```
 
 ## Quickstart: Claude Code
@@ -167,6 +182,12 @@ Use $life-autobiography-writer to revise this draft.
 Remove flattery, add contradiction, and make the feeling land in scenes instead of abstract praise.
 ```
 
+```text
+Use $life-autobiography-writer to analyze this LinkedIn + X + personal website.
+Extract public self-story, recurring themes, contradictions, motifs, and missing interview questions.
+Then write a third-person profile opening.
+```
+
 ## Writing Philosophy
 
 This skill follows four principles:
@@ -184,6 +205,7 @@ In Chinese, the default style is third-person literary nonfiction with a Wang Ze
 - `minori-style-interview.md`: origin-point and core-hunger interview method.
 - `drama-method.md`: television-style dramatic spine, reversals, supporting cast, motifs, and endings.
 - `life-memory-substrate.md`: source-material management for raw events, claims, verified facts, interaction memory, and follow-up actions.
+- `social-profile-ingestion.md`: one-link or multi-link social/profile ingestion for Instagram, LinkedIn, X/Twitter, Xiaohongshu, GitHub, blogs, and personal sites.
 - `autobiography-craft.md`: memoir and biography craft patterns.
 - `biographical-prose-style.md`: Chinese third-person prose adaptation.
 - `anti-flattery.md`: final revision pass against generic praise and brand-bio language.
