@@ -33,6 +33,7 @@ For Chinese outputs, default to a third-person literary biographical voice unles
    - Interview in rounds. Start broad, then return with sharper follow-ups.
    - Request documents only when useful: timelines, photos, speeches, posts, letters, media reports, family notes, work artifacts.
    - If the user provides social media profile links, use `references/social-profile-ingestion.md` to capture public profile material, recent posts, recurring themes, self-presentation, work history, visible communities, motifs, and contradictions. Treat social media as curated evidence, not the whole person.
+   - For LinkedIn, prefer asking the user to copy/paste the full profile text instead of only pasting a link, because LinkedIn often blocks unauthenticated access behind an authwall/data wall.
    - If the user provides partial material, map what is known, what is missing, and what cannot be responsibly inferred.
    - Use `references/life-memory-substrate.md` when source material is large, fragmented, long-running, or intended to become a reusable personal knowledge base. Preserve raw events, separate claims from verified facts, capture why decisions happened, and attach provenance, confidence, freshness, and follow-up actions.
 

@@ -105,7 +105,7 @@ Or start from social links:
 
 ```text
 Use $life-autobiography-writer to parse these social profiles and write a provisional life map:
-LinkedIn: ...
+LinkedIn: [paste full profile text here if possible; LinkedIn links often hit an authwall]
 X/Twitter: ...
 Instagram: ...
 Xiaohongshu: ...
@@ -184,6 +184,7 @@ Remove flattery, add contradiction, and make the feeling land in scenes instead 
 
 ```text
 Use $life-autobiography-writer to analyze this LinkedIn + X + personal website.
+I pasted the full LinkedIn profile text below because LinkedIn may block unauthenticated page access.
 Extract public self-story, recurring themes, contradictions, motifs, and missing interview questions.
 Then write a third-person profile opening.
 ```

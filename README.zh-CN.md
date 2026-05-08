@@ -111,7 +111,7 @@ Make it third-person, Chinese, restrained, and not flattering.
 
 ```text
 Use $life-autobiography-writer to parse these social profiles and write a provisional life map:
-LinkedIn: ...
+LinkedIn: [建议直接粘贴完整主页文本；LinkedIn 链接经常会遇到 authwall / 数据墙]
 X/Twitter: ...
 Instagram: ...
 Xiaohongshu: ...
@@ -190,6 +190,7 @@ Remove flattery, add contradiction, and make the feeling land in scenes instead 
 
 ```text
 Use $life-autobiography-writer to analyze this LinkedIn + X + personal website.
+I pasted the full LinkedIn profile text below because LinkedIn may block unauthenticated page access.
 Extract public self-story, recurring themes, contradictions, motifs, and missing interview questions.
 Then write a third-person profile opening.
 ```

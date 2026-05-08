@@ -69,6 +69,8 @@ Do not infer private motives, trauma, diagnoses, relationships, income, politics
 
 ### LinkedIn
 
+Best practice: ask the user to copy/paste the full LinkedIn profile text directly. LinkedIn often returns an authwall/data wall for unauthenticated agents, so a link alone may only prove the profile exists and may not expose the work history, about section, featured posts, publications, projects, or awards.
+
 Capture:
 
 - headline, about section, work history, education, projects, featured links;
