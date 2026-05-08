@@ -41,6 +41,7 @@ Life Autobiography Writer gives your agent a repeatable writing system for that.
 - Writes third-person literary profiles or first-person memoir chapters.
 - Uses a Minori-style interview method inspired by writer-versus-subject biography dynamics: attracted, skeptical, patient, and unwilling to accept the polished version too quickly.
 - Embeds a Wang Zengqi-inspired Chinese prose system for plain but flavorful writing: objects first, people second, pressure third, meaning last.
+- Adds an English literary nonfiction mode: Chekhov-like humane attention, E. B. White-like clarity, Alice Munro-like undercurrents, and John McPhee-like structure.
 - Runs an anti-flattery revision pass so the final text feels intimate, not worshipful.
 
 ## Best For
@@ -66,6 +67,7 @@ life-autobiography-writer/
 │   ├── autobiography-craft.md
 │   ├── biographical-prose-style.md
 │   ├── drama-method.md
+│   ├── english-biographical-prose-style.md
 │   ├── information-collection-modes.md
 │   ├── life-memory-substrate.md
 │   ├── minori-style-interview.md
@@ -210,6 +212,8 @@ This skill follows four principles:
 
 In Chinese, the default style is third-person literary nonfiction with a Wang Zengqi-inspired mechanism: plain language, concrete things, human relationships, restrained feeling, and sentence flow.
 
+In English, the skill uses a composite literary nonfiction mechanism rather than a single imitation: Chekhov for humane character attention, E. B. White for clean sentences, Alice Munro for undercurrents, and John McPhee for structure.
+
 ## Included Reference Modules
 
 - `question-bank.md`: interview questions for origin, family, work, shame, ambition, relationships, and meaning.
@@ -220,6 +224,7 @@ In Chinese, the default style is third-person literary nonfiction with a Wang Ze
 - `social-profile-ingestion.md`: one-link or multi-link social/profile ingestion for Instagram, LinkedIn, X/Twitter, Xiaohongshu, GitHub, blogs, and personal sites.
 - `autobiography-craft.md`: memoir and biography craft patterns.
 - `biographical-prose-style.md`: Chinese third-person prose adaptation.
+- `english-biographical-prose-style.md`: English prose mode for humane, clear, undercurrent-rich literary nonfiction.
 - `anti-flattery.md`: final revision pass against generic praise and brand-bio language.
 - `vendor/wangzengqi-perspective/SKILL.md`: embedded full writing-style source for Wang Zengqi-inspired Chinese prose.
 

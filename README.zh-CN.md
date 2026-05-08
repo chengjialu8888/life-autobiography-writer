@@ -49,6 +49,7 @@ Life Autobiography Writer 会让 agent 先问更深的问题：
 - 写第三人称人物小传，也能写第一人称 memoir 章节。
 - 内置“美乃里式采访”方法：被人物吸引，但不轻信人物给出的官方版本。
 - 植入汪曾祺式中文写作机制：先有物，再有人；先有动作，再有情绪；先有场景，再有意义。
+- 增加英文文学非虚构写作机制：契诃夫式人物悲悯、E. B. White 式清澈句子、Alice Munro 式人生暗流、John McPhee 式非虚构结构。
 - 最后做“反彩虹屁”修订，让人物可亲、复杂、有光，也有阴影。
 
 ## 适合谁用
@@ -72,6 +73,7 @@ life-autobiography-writer/
 │   ├── autobiography-craft.md
 │   ├── biographical-prose-style.md
 │   ├── drama-method.md
+│   ├── english-biographical-prose-style.md
 │   ├── information-collection-modes.md
 │   ├── life-memory-substrate.md
 │   ├── minori-style-interview.md
@@ -216,6 +218,8 @@ Then write a third-person profile opening.
 
 中文输出默认使用第三人称文学性非虚构风格，并植入汪曾祺式写作机制：语言平实，细节有味，贴着人物写，情绪不喊破。
 
+英文输出不简单寻找“英文汪曾祺”，而是采用组合机制：契诃夫的人物悲悯，E. B. White 的清澈散文，Alice Munro 的人生暗流，John McPhee 的非虚构结构。
+
 ## 内置参考模块
 
 - `question-bank.md`：人生原点、家庭、工作、羞耻、野心、关系、意义等采访问题。
@@ -226,6 +230,7 @@ Then write a third-person profile opening.
 - `social-profile-ingestion.md`：社交主页一键摄取，支持 Instagram、LinkedIn、X/Twitter、小红书、GitHub、博客和个人网站。
 - `autobiography-craft.md`：自传、回忆录、人物传记的写作工艺。
 - `biographical-prose-style.md`：中文第三人称人物小传笔法。
+- `english-biographical-prose-style.md`：英文文学非虚构人物写作笔法。
 - `anti-flattery.md`：反彩虹屁修订规则。
 - `vendor/wangzengqi-perspective/SKILL.md`：完整植入的汪曾祺式中文写作 skill。
 
