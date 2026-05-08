@@ -1,0 +1,29 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Life Autobiography Writer</title>
+  <desc id="desc">A literary Agent Skill for writing vivid, interview-driven life portraits.</desc>
+  <rect width="1280" height="640" fill="#F8F1E7"/>
+  <path d="M0 0H1280V640H0V0Z" fill="#F7EFE2"/>
+  <path d="M0 476C151 433 254 463 382 500C515 539 623 577 770 529C881 493 929 414 1050 396C1125 385 1192 401 1280 432V640H0V476Z" fill="#D9E8DD"/>
+  <path d="M0 513C144 493 270 511 385 541C512 574 605 613 740 574C849 543 907 477 1015 457C1112 439 1195 469 1280 511V640H0V513Z" fill="#BBD5C3"/>
+  <rect x="84" y="82" width="1112" height="476" rx="28" fill="#FFF9EF" stroke="#2E2B26" stroke-width="4"/>
+  <rect x="122" y="124" width="428" height="360" rx="10" fill="#FDF6EA" stroke="#2E2B26" stroke-width="3"/>
+  <path d="M168 181H499" stroke="#8C4A32" stroke-width="8" stroke-linecap="round"/>
+  <path d="M168 231H462" stroke="#2E2B26" stroke-width="5" stroke-linecap="round"/>
+  <path d="M168 269H499" stroke="#2E2B26" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+  <path d="M168 307H430" stroke="#2E2B26" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+  <path d="M168 345H491" stroke="#2E2B26" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  <path d="M168 383H407" stroke="#2E2B26" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+  <path d="M168 421H475" stroke="#2E2B26" stroke-width="5" stroke-linecap="round" opacity=".4"/>
+  <rect x="648" y="124" width="410" height="360" rx="10" fill="#F2E4D0" stroke="#2E2B26" stroke-width="3"/>
+  <path d="M694 187C746 141 825 142 867 191C891 218 895 254 880 287C923 286 958 319 958 362C958 408 920 446 874 446H729C679 446 638 405 638 355C638 318 660 286 693 272C672 244 672 207 694 187Z" fill="#FFF9EF" stroke="#2E2B26" stroke-width="4"/>
+  <circle cx="771" cy="283" r="46" fill="#C94F3D" opacity=".9"/>
+  <path d="M731 356C761 329 812 330 843 356" stroke="#2E2B26" stroke-width="5" stroke-linecap="round"/>
+  <path d="M704 244C722 222 746 211 776 211C807 211 834 227 850 252" stroke="#2E2B26" stroke-width="5" stroke-linecap="round"/>
+  <path d="M915 173L1042 92" stroke="#8C4A32" stroke-width="7" stroke-linecap="round"/>
+  <path d="M918 174L957 204" stroke="#8C4A32" stroke-width="7" stroke-linecap="round"/>
+  <path d="M1041 93L1033 142" stroke="#8C4A32" stroke-width="7" stroke-linecap="round"/>
+  <text x="96" y="575" fill="#2E2B26" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Life Autobiography Writer</text>
+  <text x="96" y="612" fill="#5B4A3B" font-family="Inter, Arial, sans-serif" font-size="24">Interview deeply. Write people whole. No flattery.</text>
+  <text x="671" y="551" fill="#2E2B26" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="30">写人生，不写简历。</text>
+  <text x="671" y="591" fill="#2E2B26" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="30">写承认，不写彩虹屁。</text>
+</svg>
