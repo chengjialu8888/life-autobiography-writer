@@ -1,0 +1,6 @@
+interface:
+  display_name: "Life Autobiography Writer"
+  short_description: "Interview-driven life portraits"
+  default_prompt: "Use $life-autobiography-writer to interview someone deeply and write a vivid life autobiography without flattery."
+policy:
+  allow_implicit_invocation: true
