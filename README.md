@@ -69,6 +69,7 @@ life-autobiography-writer/
 │   ├── drama-method.md
 │   ├── english-biographical-prose-style.md
 │   ├── information-collection-modes.md
+│   ├── interview-first-routing.md
 │   ├── life-memory-substrate.md
 │   ├── minori-style-interview.md
 │   ├── question-bank.md

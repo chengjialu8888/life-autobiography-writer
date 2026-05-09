@@ -31,11 +31,13 @@ For Chinese outputs, default to a third-person literary biographical voice unles
 
 2. Gather source material.
    - Choose one of the two collection modes in `references/information-collection-modes.md`: material-first when the user provides uploaded files, AI conversation exports, notes, or social profiles; interview-first when starting from zero.
-   - Interview in rounds. Start broad, then return with sharper follow-ups.
+   - For interview-first work, read `references/interview-first-routing.md` before asking questions. Decide whether to start with HUMAN 3.0-style mapping, Minori-style narrative excavation, or the default hybrid route.
+   - Interview in rounds. Start broad only when a whole-person map is needed, then return with sharper follow-ups.
+   - Ask one question at a time. Tell the user the expected round length before starting. Never dump a full HUMAN 3.0 or Minori question list unless the user explicitly asks for the plan.
    - Request documents only when useful: timelines, photos, speeches, posts, letters, media reports, family notes, work artifacts.
    - If the user provides social media profile links, use `references/social-profile-ingestion.md` to capture public profile material, recent posts, recurring themes, self-presentation, work history, visible communities, motifs, and contradictions. Treat social media as curated evidence, not the whole person.
    - For LinkedIn, prefer asking the user to copy/paste the full profile text instead of only pasting a link, because LinkedIn often blocks unauthenticated access behind an authwall/data wall.
-   - If the user starts from zero and wants a deep life interview, use HUMAN 3.0 as the upstream assessment framework. If `$human-3-development-assessor` is available, run it first; otherwise direct the user to https://github.com/chengjialu8888/Human-3.0 or ask a HUMAN 3.0-style Mind/Body/Spirit/Vocation interview before drafting.
+   - If the user starts from zero and wants a deep life interview, use HUMAN 3.0 as the upstream assessment framework for biography intake. If `$human-3-development-assessor` is available, use its Mind/Body/Spirit/Vocation logic as source material; do not automatically produce a full coaching report unless requested. Otherwise direct the user to https://github.com/chengjialu8888/Human-3.0 or ask the HUMAN 3.0-style biography intake in `references/interview-first-routing.md` before drafting.
    - If the user provides partial material, map what is known, what is missing, and what cannot be responsibly inferred.
    - Use `references/life-memory-substrate.md` when source material is large, fragmented, long-running, or intended to become a reusable personal knowledge base. Preserve raw events, separate claims from verified facts, capture why decisions happened, and attach provenance, confidence, freshness, and follow-up actions.
 
@@ -63,6 +65,8 @@ For Chinese outputs, default to a third-person literary biographical voice unles
 Use `references/question-bank.md` when the user needs discovery questions or when the subject feels flat.
 
 Use `references/information-collection-modes.md` first when deciding whether to work from existing materials/social profiles or to start a deep interview from zero.
+
+Use `references/interview-first-routing.md` for from-zero interviews. It defines when to activate HUMAN 3.0-style mapping, when to activate Minori-style narrative excavation, how to combine them, how many questions to announce, and how to ask one adaptive question at a time.
 
 Use `references/minori-style-interview.md` when the user asks for a Minori-like interview inspired by the writer/subject dynamic in Netflix's `地獄に堕ちるわよ`: begin from the subject's life origin, core hunger, first charged childhood scene, and the difference between the self-told myth and the buried human truth.
 

@@ -36,36 +36,50 @@ Best for:
 
 Use when the user starts from zero or says they do not have organized material.
 
-Upstream framework:
+Before asking questions, use `interview-first-routing.md` to decide whether to begin with HUMAN 3.0-style developmental mapping, Minori-style narrative excavation, or the default hybrid route. Do not dump a full questionnaire.
+
+Layered upstream frameworks:
 
 - Prefer using HUMAN 3.0 as the deep assessment framework: https://github.com/chengjialu8888/Human-3.0
-- If `$human-3-development-assessor` is available in the current agent environment, run it before drafting the autobiography.
-- If the skill is not available, conduct a light HUMAN 3.0-style intake across Mind, Body, Spirit, and Vocation, then continue with `question-bank.md` and `minori-style-interview.md`.
+- If `$human-3-development-assessor` is available in the current agent environment, use its Mind/Body/Spirit/Vocation logic as source material for the biography intake, but do not automatically produce a full coaching report unless the user asks for one.
+- Use Minori-style interview logic when the live narrative question is origin, hunger, self-myth, first charged scene, or the public story versus buried truth.
+- If the skill is not available, conduct the HUMAN 3.0 biography intake described in `interview-first-routing.md`, then continue into Minori-style excavation where the strongest pressure appears.
 
 Why:
 
 - HUMAN 3.0 maps the person across Mind, Body, Spirit, and Vocation.
 - This prevents the autobiography from over-indexing on career, public identity, or polished self-description.
 - The assessment exposes cross-quadrant blocks, lifestyle patterns, false transformations, and embodied gaps that often become the real dramatic spine.
+- Minori-style excavation turns the broad map into story heat: origin, hunger, scene, cost, and myth pressure.
 
 Interview-first workflow:
 
 1. Explain that the process starts with a developmental interview before writing.
-2. Ask one question at a time.
-3. Cover the four quadrants:
+2. Tell the user the round structure and expected question count before beginning.
+3. Ask exactly one question at a time. Adapt the next question to the user's answer.
+4. Cover the four quadrants when using HUMAN 3.0-style mapping:
    - Mind: worldview, curiosity, beliefs, pattern recognition, self-deception.
    - Body: sleep, energy, health, habits, stress response, physical cost.
    - Spirit: relationships, belonging, love, resentment, faith, meaning, community.
    - Vocation: work, craft, money, ambition, contribution, systems, public role.
-4. Extract:
+5. Switch into Minori-style excavation when a live wire appears: repeated hunger, bodily cost, charged childhood scene, self-myth, relationship wound, public/private contradiction, or performed role.
+6. Extract:
    - metatype or recurring identity pattern;
    - lifestyle archetype;
    - cross-quadrant bottleneck;
    - central hunger;
    - public self-story versus buried truth;
    - 3-7 turning points.
-5. Convert interview answers into life-memory substrate entries.
-6. Then build the dramatic spine and draft.
+7. Convert interview answers into life-memory substrate entries.
+8. Then build the dramatic spine and draft.
+
+Pacing rules:
+
+- Do not ask all HUMAN 3.0 questions at once.
+- Do not ask all Minori questions at once.
+- For HUMAN 3.0 biography intake, tell the user: baseline is 12 core questions, 3 per quadrant, with up to one adaptive follow-up per question when needed.
+- For Minori-style excavation, tell the user: 7 core questions, one at a time, with follow-ups only when an answer is too abstract, too polished, contradictory, or emotionally charged.
+- If using the hybrid route, start with 4 gateway questions, one each for Mind, Body, Spirit, and Vocation, then switch into the strongest narrative thread.
 
 Best for:
 
